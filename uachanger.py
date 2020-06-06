@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 from proxy2 import *
 
 class UAChangerRequestHandler(ProxyRequestHandler):
@@ -7,4 +8,4 @@ class UAChangerRequestHandler(ProxyRequestHandler):
 
 
 if __name__ == '__main__':
-    test(HandlerClass=UAChangerRequestHandler)
+    main(HandlerClass=UAChangerRequestHandler)
